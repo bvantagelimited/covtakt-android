@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "666603500263",
+    "firebase_url": "https://opentrace-rs.firebaseio.com",
+    "project_id": "opentrace-rs",
+    "storage_bucket": "opentrace-rs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666603500263:android:51f4e409d06368594f6842",
+        "android_client_info": {
+          "package_name": "rs.covtakt.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666603500263-i0168cfou8eugv2501tpi0sc5r4mfn5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8TKJUpqPSz2E7YRz4cCZCSllWe_k-XZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666603500263-i0168cfou8eugv2501tpi0sc5r4mfn5q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "666603500263-khaqijt6tfjljg278q0qh4vogj9g2tni.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "rs.covtakt.stage"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

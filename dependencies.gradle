@@ -1,0 +1,94 @@
+ext {
+
+    STORE_URL = 'google.com'
+    PRIVACY_URL = "PRIVACY_URL"
+    SERVICE_FOREGROUND_NOTIFICATION_ID = 771578
+    SERVICE_FOREGROUND_CHANNEL_ID = "771579"
+    PUSH_NOTIFICATION_ID = 771578
+    V2_CHARACTERISTIC_ID = "117BDD58-57CE-4E7A-8E87-7CCCDDA2A804" // (e.g: 117BDD58-57CE-4E7A-8E87-7CCCDDA2A804)
+    FIREBASE_REGION = "yourConfig"
+    STORE_FILE_PATH = "../yourConfig.jks"
+    STORE_PASSWORD = "yourConfig"
+    KEY_ALIAS = "yourConfig"
+    KEY_PASSWORD = "yourConfig"
+
+    ORG_DEFAUL_PREFIX = "_yourConfig"
+    ORG_COUNTRY_1_PREFIX ="_yourConfig"
+    ORG_COUNTRY_2_PREFIX ="_yourConfig"
+
+   Staging =[
+
+        'FIREBASE_UPLOAD_BUCKET' :  "yourConfig",
+        'BLE_SSID' : "17E033D3-490E-4BC9-9FE8-2F567643F4D3" // (e.g: 17E033D3-490E-4BC9-9FE8-2F567643F4D3)
+    ]
+   Production = [
+
+        'FIREBASE_UPLOAD_BUCKET' : "yourConfig",
+        'BLE_SSID' : "17E033D3-490E-4BC9-9FE8-2F567643F4D3" // (e.g: 17E033D3-490E-4BC9-9FE8-2F567643F4D3)
+    ]
+
+
+
+
+    final lifecycle_version = '2.0.0-beta01'
+    final supportVersion = '1.0.0-beta01'
+    final appCompatVersion = '1.1.0-alpha05'
+    final constraintVersion = '1.1.2'
+    final daggerVersion = '2.16'
+    final okHttp = '3.13.1'
+    final retrofit = '2.5.0'
+    final rxJava = '2.1.9'
+    final rxAndroid = '2.0.1'
+    final stetho = '1.4.2'
+    final roundedImageView = '2.3.0'
+    final glide = '4.8.0'
+    final MPAndroidChart = 'v3.0.3'
+    final QrGenerator = '2.4.0'
+    final androidKTXVersion = '1.0.0-beta01'
+    final materialVersion = '1.0.0'
+    final timberVersion = '1.0.1'
+    final multipleDexVersion = '2.0.0'
+    final mapUtilVersion = '0.5+'
+    final kotlinCoroutineVersion= '1.0.0'
+    final fastAndroidNetWorkVersion ="1.0.2"
+    final facebookVersion = "4.36.1"
+    final stethoVersion = "1.5.0"
+    final accountKitVersion = "5.+"
+    final circleImageViewVersion = "2.1.0"
+
+    //firebase
+    final firebaseCoreVersion = '16.0.0'
+    final firebaseIidVersion = '20.1.5'
+    final firebaseMessagingVersion = '20.1.7'
+    final firebaseJobdispatcherVersion = '0.8.5'
+    final fireBasseDataBaseVersion = '19.2.1'
+    final fireBaseAuthVersion ="19.2.0"
+    final fireBaseCrashlytics = "17.0.0"
+    //play-service
+    final play_serviceVersion = '16.0.0'
+    final play_service_authVersion = '16.0.1'
+
+    //Test
+    final junitVersion = '1.0.0-beta02'
+    final testRunnerVersion = '1.1.0-beta02'
+    final esperessoVersion = '3.1.0-beta02'
+    final mockitoKotlinVersion = '1.5.0'
+    final coreVersion = "1.0.0-beta02"
+    final gsonVersion = "2.8.1"
+    final spinkitVersion = '1.2.0'
+
+    dependencies = [
+            firebase             : [
+                    'core'         : "com.google.firebase:firebase-core:$firebaseCoreVersion",
+                    'iid'          : "com.google.firebase:firebase-iid:$firebaseIidVersion",
+                    'messaging'    : "com.google.firebase:firebase-messaging:$firebaseMessagingVersion",
+                    'jobdispatcher': "com.firebase:firebase-jobdispatcher:$firebaseJobdispatcherVersion",
+                    'database'     :"com.google.firebase:firebase-database:$fireBasseDataBaseVersion",
+                    'auth'         : "com.google.firebase:firebase-auth:$fireBaseAuthVersion",
+                    'crashlytics'   : "com.google.firebase:firebase-crashlytics:$fireBaseCrashlytics"
+
+            ]
+    ]
+
+
+}

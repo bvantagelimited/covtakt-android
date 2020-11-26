@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "339991317688",
+    "firebase_url": "https://covtakt.firebaseio.com",
+    "project_id": "covtakt",
+    "storage_bucket": "covtakt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339991317688:android:2f92d36e66a39157f9f84d",
+        "android_client_info": {
+          "package_name": "rs.covtakt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339991317688-0km6kt38vjajv1d64rdsk6n3k48ris7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6Gx2bWzKsbVXSG_Dv84aP-Utdlcs_wvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339991317688-0km6kt38vjajv1d64rdsk6n3k48ris7m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "339991317688-9ejf4agcl4hur8ccgqa2uhknb4i9u80n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "rs.covtakt"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

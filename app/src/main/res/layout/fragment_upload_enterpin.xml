@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_white_radius"
+    android:layout_marginTop="8dp"
+
+
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/enterPinActionButton"
+
+        android:orientation="vertical"
+
+        tools:ignore="Suspicious0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:visibility="gone"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:id="@+id/enterPinFragmentBackButtonLayout"
+                android:layout_width="60dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/enterPinFragmentBackButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:scaleX="0.5"
+                    android:scaleY="0.5"
+                    android:src="@drawable/back" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:fadeScrollbars="false"
+            android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:text="@string/step_2"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/enter_pin_to_upload"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/enterPinFragmentUploadCode"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:imeOptions="actionGo"
+                android:hint="123456"
+                android:inputType="number"
+                android:maxLength="6"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/enterPinFragmentErrorMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/invalid_pin"
+                android:textColor="#C20000"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone"
+                android:textSize="16sp"
+
+
+             />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="13sp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_agreement" />
+        </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/enterPinActionButton"
+            android:fontFamily="@font/font"
+            android:textFontWeight="600"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/gradient"
+            android:text="@string/upload_data"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:textStyle="normal" />
+
+
+</RelativeLayout>
